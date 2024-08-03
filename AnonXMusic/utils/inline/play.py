@@ -67,7 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="😈ᴏᴡɴᴇʀ😈", url=f"https://t.me/SanjayS27",),
+         InlineKeyboardButton(text="🍾ᴏᴡɴᴇʀ🍾", url=f"https://t.me/SanjayS27",),
          InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/tamilanexpresschat",),
         ],
     ]
@@ -84,7 +84,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="😈ᴏᴡɴᴇʀ😈", url=f"https://t.me/SanjayS27",),
+         InlineKeyboardButton(text="🍾ᴏᴡɴᴇʀ🍾", url=f"https://t.me/SanjayS27",),
          InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url=f"https://t.me/tamilanexpresschat",),
         ],
     ]
