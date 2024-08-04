@@ -66,11 +66,11 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [
-         InlineKeyboardButton(text="𝆺𝅥⃝⍣𓄀꯭𝐒 ᴀ ɴ J ᴀ 𝐘𝆺𝅥𝀚𖽹͢𓂃𓂄", url=f"https://t.me/SanjayS27",),
-         InlineKeyboardButton(text="•sᴜᴘᴘᴏʀᴛ•", url=f"https://t.me/tamilanexpresschat",),
+         [
+         InlineKeyboardButton(text="OWNER", url=f"https://t.me/SanjayS27",),
+         InlineKeyboardButton(text="•SUPPORT•", url=f"https://t.me/tamilanexpresschat",),
         ],
-         [InlineKeyboardButton(text="• ℙ𝕆𝕎𝔻𝔼ℝ  𝔹𝕐  𝕋𝔼ℂ  •", url=f"https://t.me/tamilanexpresschat",)],
+        [ InlineKeyboardButton(text="•WATCH FREE MOVIES-ANIME•", url=f"https://t.me/okflixott",)],
     ]
     return buttons
 
@@ -85,10 +85,10 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-         InlineKeyboardButton(text="𝆺𝅥⃝⍣𓄀꯭𝐒 ᴀ ɴ J ᴀ 𝐘𝆺𝅥𝀚𖽹͢𓂃𓂄", url=f"https://t.me/SanjayS27",),
-         InlineKeyboardButton(text="•sᴜᴘᴘᴏʀᴛ•", url=f"https://t.me/tamilanexpresschat",),
+         InlineKeyboardButton(text="OWNER", url=f"https://t.me/SanjayS27",),
+         InlineKeyboardButton(text="•SUPPORT•", url=f"https://t.me/tamilanexpresschat",),
         ],
-        [ InlineKeyboardButton(text="• ℙ𝕆𝕎𝔻𝔼ℝ  𝔹𝕐  𝕋𝔼ℂ  •", url=f"https://t.me/tamilanexpresschat",)],
+        [ InlineKeyboardButton(text="•WATCH FREE MOVIES-ANIME•", url=f"https://t.me/okflixott",)],
     ]
     return buttons
 
