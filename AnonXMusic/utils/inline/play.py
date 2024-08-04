@@ -69,8 +69,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
          InlineKeyboardButton(text="𝆺𝅥⃝⍣𓄀꯭𝐒 ᴀ ɴ J ᴀ 𝐘𝆺𝅥𝀚𖽹͢𓂃𓂄", url=f"https://t.me/SanjayS27",),
          InlineKeyboardButton(text="•sᴜᴘᴘᴏʀᴛ•", url=f"https://t.me/tamilanexpresschat",),
-         InlineKeyboardButton(text="• ℙ𝕆𝕎𝔻𝔼ℝ  𝔹𝕐  𝕋𝔼ℂ  •", url=f"https://t.me/tamilanexpresschat",),
         ],
+         [InlineKeyboardButton(text="• ℙ𝕆𝕎𝔻𝔼ℝ  𝔹𝕐  𝕋𝔼ℂ  •", url=f"https://t.me/tamilanexpresschat",)],
     ]
     return buttons
 
@@ -87,8 +87,8 @@ def stream_markup(_, chat_id):
         [
          InlineKeyboardButton(text="𝆺𝅥⃝⍣𓄀꯭𝐒 ᴀ ɴ J ᴀ 𝐘𝆺𝅥𝀚𖽹͢𓂃𓂄", url=f"https://t.me/SanjayS27",),
          InlineKeyboardButton(text="•sᴜᴘᴘᴏʀᴛ•", url=f"https://t.me/tamilanexpresschat",),
-         InlineKeyboardButton(text="• ℙ𝕆𝕎𝔻𝔼ℝ  𝔹𝕐  𝕋𝔼ℂ  •", url=f"https://t.me/tamilanexpresschat",),
         ],
+        [ InlineKeyboardButton(text="• ℙ𝕆𝕎𝔻𝔼ℝ  𝔹𝕐  𝕋𝔼ℂ  •", url=f"https://t.me/tamilanexpresschat",)],
     ]
     return buttons
 
