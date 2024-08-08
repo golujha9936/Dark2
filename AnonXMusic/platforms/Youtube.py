@@ -1,16 +1,6 @@
-#
-# Copyright (C) 2024 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
-#
-# This file is part of < https://github.com/TheTeamVivek/YukkiMusic > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TheTeamVivek/YukkiMusic/blob/master/LICENSE >
-#
-# All rights reserved.
-#
 import asyncio
 import aiohttp
 import requests
-import config
 import os
 import re
 from typing import Union
@@ -20,8 +10,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from YukkiMusic.utils.database import is_on_off
-from YukkiMusic.utils.formatters import time_to_seconds
+from AnonXMusic.utils.database import is_on_off
+from AnonXMusic.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
@@ -255,7 +245,7 @@ class YouTubeAPI:
 
         def audio_dl():
             ydl_optssx = {
-                "format": "bestaudio/[ext=m4a]",
+                "format": "bestaudio/best",
                 "outtmpl": "downloads/%(id)s.%(ext)s",
                 "geo_bypass": True,
                 "nocheckcertificate": True,
@@ -333,7 +323,7 @@ class YouTubeAPI:
             fpath = f"downloads/{title}.mp3"
             return fpath
         elif video:
-            if await is_on_off(config.YTDOWNLOADER):
+            if await is_on_off(1):
                 direct = True
                 downloaded_file = await loop.run_in_executor(None, video_dl)
             else:
