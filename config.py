@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Mrcutex1/Sanjay",
+    "https://github.com/Mrcutex1/Riyu2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tamilanexpresschat")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tamilanexpresschat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Ace_networkop")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -77,15 +77,19 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://graph.org/file/6161801fb147e5deacb8c.jpg",
-                 "https://telegra.ph/file/87f680aead03443f291b0.jpg"]
+START_IMG_URL =   ["https://te.legra.ph/file/5fd13f2cc0d03bce9f7f2.jpg",
+                  "https://te.legra.ph/file/c15d01b3e6b40ea141dc9.jpg",
+                  "https://te.legra.ph/file/58b491b39cee854695fa9.jpg",
+                  "https://telegra.ph/file/17b5a312f5385556787e0.jpg",
+                  "https://telegra.ph/file/5c2c41d52e8819dcbb867.jpg",
+                  "https://telegra.ph/file/56de88c46f3b02a1722d1.jpg"]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/0bcf8ad92e24cc19a54f5.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/87f680aead03443f291b0.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/e92140ba987b88b3f0672.jpg"
+PLAYLIST_IMG_URL = "https://i.imgur.com/4t4XH9C.png"
 STATS_IMG_URL = "https://telegra.ph/file/1175e51b22aff411b1972.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8a4449b28355c92d68acc.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/b8715f379ef3071c352ba.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b8715f379ef3071c352ba.jpg"
 STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
