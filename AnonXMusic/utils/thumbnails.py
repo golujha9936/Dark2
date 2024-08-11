@@ -8,7 +8,7 @@ import numpy as np
 from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
-from StrangerMusic import app
+from AnonXMusic import app
 
 from config import YOUTUBE_IMG_URL,MUSIC_BOT_NAME
 
