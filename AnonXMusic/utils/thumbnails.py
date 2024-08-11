@@ -13,7 +13,6 @@ from StrangerMusic import app
 from config import YOUTUBE_IMG_URL,MUSIC_BOT_NAME
 
 
-
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
     heightRatio = maxHeight / image.size[1]
